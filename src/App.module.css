@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(250, 250,250);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+img{
+  border: 2px solid #0d0222;
+  border-radius: 2px;
+  max-width: 10%;
+  max-height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.image {
+  max-width: 370px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
