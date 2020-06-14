@@ -29,6 +29,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             </Typography>
           </CardContent>
         </Grid>
+        
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.recovered)}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
@@ -62,6 +63,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           </CardContent>
         </Grid>
       </Grid>
+      
     </div>
   );
 };

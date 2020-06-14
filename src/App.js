@@ -30,7 +30,6 @@ class App extends React.Component {
       <div className={styles.container}>
     
         <Header />
-      <h4>Alifya Hussain</h4>
         <img className={styles.image} src={image} alt="COVID-19" />
         <h3>Please Select Country Below</h3>
         <CountryPicker handleCountryChange={this.handleCountryChange} />
